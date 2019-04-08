@@ -1,8 +1,8 @@
 {
-  "coin": "turtlecoin",
-  "symbol": "TRTL",
-  "coinUnits": 100,
-  "coinDifficultyTarget": 30,
+  "coin": "HLEBCoin",
+  "symbol": "HLEB",
+  "coinUnits": 1000,
+  "coinDifficultyTarget": 120,
   "logging": {
     "files": {
       "level": "info",
@@ -16,14 +16,14 @@
   },
   "softshell": {
      "memory": 262144,
-     "window": 2048,
-     "multiplier": 3,
+     "window": 512,
+     "multiplier": 2,
      "variant": 1
    },
   "poolServer": {
     "enabled": true,
     "clusterForks": "auto",
-    "poolAddress": "TRTLv3mnq2wS6GepH6nb628jEjFseeojACYToJ1BXaZNNEvLkzW327zTVCh7ncGtS2MU2usGNq9ygVwiCTTft9QkN3t5P2Xqv3f",
+    "poolAddress": "",
     "blockRefreshInterval": 1000,
     "minerTimeout": 3600,
     "ports": [
@@ -79,7 +79,7 @@
       "maxAge": 604800
     },
     "banning": {
-      "enabled": true,
+      "enabled": false,
       "time": 600,
       "invalidPercent": 25,
       "checkThreshold": 30
@@ -122,12 +122,12 @@
   },
   "daemon": {
     "host": "127.0.0.1",
-    "port": 11898
+    "port": 18622
   },
   "wallet": {
     "host": "127.0.0.1",
-    "port": 8070,
-    "password": "<replace with rpc password>"
+    "port": 18322,
+    "password": "1337"
   },
   "redis": {
     "host": "127.0.0.1",
