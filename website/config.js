@@ -1,20 +1,20 @@
-var api = 'http://poolhost.com:8117'
+var api = 'http://82.146.56.17:8117'
 
-var api_blockexplorer = 'http://daemonhost.com:11898'
+var api_blockexplorer = 'http://82.146.56.17:18922'
 
-var poolHost = 'poolhost.com'
+var poolHost = 'pool.hleb.cc'
 
 var irc = 'irc.freenode.net/#poolhost'
 
-var email = 'support@poolhost.com'
+var email = 'pool@hleb.cc'
 
 var cryptonatorWidget = ['{symbol}-BTC', '{symbol}-USD', '{symbol}-EUR']
 
 var easyminerDownload = 'https://github.com/zone117x/cryptonote-easy-miner/releases/'
 
-var blockchainExplorer = 'http://chainradar.com/{symbol}/block/{id}'
+var blockchainExplorer = 'http://explorer.hleb.cc/?hash={id}#blockchain_block'
 
-var transactionExplorer = 'http://chainradar.com/{symbol}/transaction/{id}'
+var transactionExplorer = 'http://explorer.hleb.cc/?hash={id}#blockchain_transaction'
 
 var themeCss = 'themes/default-theme.css'
 
